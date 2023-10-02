@@ -1,11 +1,10 @@
 package com.artman.compose_example.ui.main.compose
 
-import android.app.Activity
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
@@ -14,7 +13,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -25,9 +23,6 @@ import com.artman.compose_example.ui.theme.Compose_exampleTheme
 
 @Composable
 fun TopAppBar(title: String) {
-    val activity = (LocalContext.current as? Activity)
-
-
     Box(
         modifier = Modifier
             .fillMaxWidth()

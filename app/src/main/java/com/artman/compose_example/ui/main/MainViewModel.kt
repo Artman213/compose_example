@@ -1,7 +1,4 @@
 package com.artman.compose_example.ui.main
-
-import android.os.Handler
-import android.os.Looper
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
